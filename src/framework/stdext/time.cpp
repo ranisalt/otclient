@@ -33,7 +33,7 @@ auto now = []() {
     return std::chrono::high_resolution_clock::now();
 }
 
-auto startup_time = now();
+const auto startup_time = now();
     
 }
 
